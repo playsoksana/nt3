@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8081;
 
 
-const {router} = require('../Weather/weatherRouter');
+const {router} = require('./Weather/weatherRouter');
 
 
 app.use(morgan('tiny'));
